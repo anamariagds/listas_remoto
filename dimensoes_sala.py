@@ -1,6 +1,6 @@
-altura = int(input("Informe a altura da sala: "))
-compr = int(input("Informe o comprimento da sala: "))
-largura = int(input("e a largura da sala: "))
+altura = int(input("Informe a altura da sala em m: "))
+compr = int(input("Informe o comprimento da sala em m: "))
+largura = int(input("e a largura da sala em m: "))
 
 area_piso= largura*compr
 volume_sala= largura*compr*altura
