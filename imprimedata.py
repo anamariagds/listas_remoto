@@ -1,5 +1,5 @@
-dia = str(input("Digite o dia: "))
-mes = str(input("Digite o mês: "))
-ano = str(input("Digite o ano: "))
+dia = int(input("Digite um dia: "))
+mes = int(input("O mês: "))
+ano = int(input("e o ano: "))
 
-print(dia,"/",mes,"/",ano)
+print(f'{dia}/{mes}/{ano}')
