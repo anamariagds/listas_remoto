@@ -1,6 +1,8 @@
+def data(dia, mes, ano):
+    print(f'{dia}/{mes}/{ano}')
 
-dia = int(input())
-mes = int(input())
-ano = int(input())
+def main():
+    dt = data(15, 4, 2020)
 
-print(f'{dia}/{mes}/{ano}')
+if __name__=='__main__':
+    main()
