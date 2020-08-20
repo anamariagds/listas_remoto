@@ -2,10 +2,10 @@ def diz_codigo(a):
      return ord(a)
     
 def main():
-    n = str(input("Digite apenas um caracter: "))
+    n = str(input())
     car = diz_codigo(n)
 
-    print(f'O código do caractere {n} é {car}')
+    print(car)
 
 if __name__=='__main__':
     main()
