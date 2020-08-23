@@ -1,11 +1,11 @@
-def menor(a, b, c, d, e):
-    return min(a, b, c, d, e)
-
 def maior(a, b, c, d, e):
     return max(a, b, c, d, e)
 
+def menor(a, b, c, d, e):
+    return min(a, b, c, d, e)
+
 def media_aritmetica(a, b, c, d, e):
-    return (a+b+c+d+e)
+    return (a+b+c+d+e)/5
 
 def main():
     n1 = int(input())
@@ -14,11 +14,13 @@ def main():
     n4 = int(input())
     n5 = int(input())
 
-    mnr = menor(n1, n2, n3, n4, n5)
     mx = maior(n1, n2, n3, n4, n5)
+    mnr = menor(n1, n2, n3, n4, n5)
     media = media_aritmetica(n1, n2, n3, n4, n5)
 
-    print(f'{mnr} {mx} {media}')
+    print(mx)
+    print(mnr)
+    print(media)
 
 if __name__== '__main__':
     main()
