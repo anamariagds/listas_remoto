@@ -8,6 +8,7 @@ def atecincovx(preco):
 def pagodezvx(preco):
     com_juros = preco*1.17
     prestacao = com_juros / 10
+    
     return prestacao
 
 def main():
