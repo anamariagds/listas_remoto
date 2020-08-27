@@ -1,18 +1,20 @@
-def tratamento(gen):
-    if gen == 'M':
-        return 'Ilmo senhor'
-    else gen == 'F':
-        return 'Ilma senhora'
-
+def tratamento(mn):
+    if mn == 1:
+        return 'Ilmo Sr. senhor' 
+    elif mn == 2:
+        return 'Ilma Sra. senhora'
+    else:
+        return f'Escolha uma opção válida,'
 
 def main():
     #Entrada de dados
-    nome = input("Informe seu nome:\n")
-    sexo = input("F- feminino ou M-masculino\n")
+    nome = str(input("Informe seu nome: "))
+
+    sexo = int(input("1 - maculino ou 2 - feminino: "))
     
     diga = tratamento(sexo)
     
-    print('{diga} {nome}')
+    print(f'{diga} {nome}.')
 
 if __name__== '__main__':
     main()
