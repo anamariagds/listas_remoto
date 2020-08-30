@@ -1,20 +1,21 @@
 def alfabeto(l):
-    if l.lower() in 'a e i o u' :
-        return "Vogal"
-    elif l.lower() in 'b c d f g h j k l m n p q r s t v x z y w':
-        return "Consoante"
-
-    if l in '0 1 2 3 4 5 6 7 8 9':
-        return "Número"
+    vogal = 'a e i o u'
+    consoante = 'b c d f g h j k l m n p q r s t v x z y w' 
+    if l.lower() in vogal :
+        return f'vogal'
+    elif l.lower() in consoante:
+        return f'consoante'  
+    elif l.isdigit():
+        return f'número'
     else:
-        return "Simbolo"
+        return f'símbolo' 
     
 def  main():
-    l = str(input())
+    l = input()
 
-    simbolo = alfabeto(l)
+    eleeh = alfabeto(l)
 
-    print(simbolo)
+    print(eleeh)
 
 if __name__== "__main__":
     main()
