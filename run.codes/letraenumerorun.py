@@ -9,7 +9,7 @@ def alfabeto(l):
         return False
     
 def  main():
-    l = input("Diga a letra: ")
+    l = input()
 
     print(alfabeto(l))
 

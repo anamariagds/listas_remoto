@@ -10,13 +10,13 @@ def media(n1,n2,n3):
 
 
 def main():
-    n1 = int(input())
-    n2 = int(input())
-    n3 = int(input())
+    n1 = float(input())
+    n2 = float(input())
+    n3 = float(input())
 
     nota = media(n1, n2, n3)
 
-    print(nota)
+    print(f'{nota:.2f}')
 
 if __name__=='__main__':
     main()
