@@ -1,6 +1,5 @@
 def sua_idade(atual, nasc):
-    anos = atual - nasc
-    return anos
+    return atual - nasc
 
 
 def main():
