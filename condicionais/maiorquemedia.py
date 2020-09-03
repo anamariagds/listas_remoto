@@ -1,7 +1,5 @@
 def media(n1, n2, n3, n4, n5):
-    media_notas = (n1+n2+n3+n4+n5)/5
-
-    return media_notas
+    return (n1+n2+n3+n4+n5)/5
     
 def main():
     n1 = int(input("Primeira nota: "))
@@ -10,20 +8,19 @@ def main():
     n4 = int(input("Quarta nota: "))
     n5 = int(input("Quinta nota: "))
     
-    md = media(n1, n2,n3,n4,n5)   
+    md = media(n1, n2,n3,n4,n5)
+    print(f'{md:.2f}')   
 
-    if n1>md:
-        print(n1)
+    if n1 > md:
+        print(f'{n1:.2f}')
     if n2>md:
-        print(n2)
+        print(f'{n2:.2f}')
     if n3 > md:
-        print(n3)
+        print(f'{n3:.2f}')
     if n4 > md:
-        print(n4)
+        print(f'{n4:.2f}')
     if n5 > md:
-        print(n5)
-    
-    print(f'{md:.2f}')
+        print(f'{n5:.2f}')  
    
     
 

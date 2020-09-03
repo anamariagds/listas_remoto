@@ -1,9 +1,6 @@
 def seu_imc(m,h):
     imc = m/(h**2)
     return imc
-
-
-
 def main():
     massa = float(input("Informe sua massa corporal em kg: "))
     altura = float(input("Informe sua altura: "))

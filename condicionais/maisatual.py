@@ -4,7 +4,7 @@ def recente(ano1, ano2, mes1, mes2, dia1, dia2):
     elif (ano2 > ano1) or (ano1 == ano2 and mes2 > mes1) or  (ano1 == ano2 and mes2==mes1 and dia2>dia1):
         return f'{dia2}/{mes2}/{ano2}'
     elif ano1 == ano2 and mes1 == mes2 and dia1 == dia2:
-        return f'{dia2}/{mes2}/{ano2}
+        return f'{dia2}/{mes2}/{ano2}'
 def main():
     dia1= int(input("Diga o dia: "))
     mes1 = int(input("Diga o mês: "))
