@@ -19,9 +19,14 @@ def main():
     
     if n>= 100 and n<=999:
         quant_pares = alg_par(n)
-        print(f'O número {n} tem {quant_pares} algarismos pares.')  
+        if quant_pares >1 or quant_pares == 0:
+            print(f'{n} tem {quant_pares} digitos pares.')
+        elif quant_pares ==1:
+            print(f'{n} tem {quant_pares} digito par.')
+
     else:
         print(f'Informe um número válido!')
+    
 
 if __name__=='__main__':
     main()
