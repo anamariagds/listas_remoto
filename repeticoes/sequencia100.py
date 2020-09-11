@@ -7,10 +7,7 @@ def par_ou_impar(n):
             pares += 1
         else:
             impares +=1
-    return pares, impares
-            
-
-    
+    return pares, impares        
 
 def main():
     pares, impares = par_ou_impar(100)
