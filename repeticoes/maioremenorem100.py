@@ -8,7 +8,7 @@ def maior(n):
             
 def main():  
   
-    mx = maior(10)
+    mx = maior(100)
     print(f'O maior número digitado foi {mx}')
 
   

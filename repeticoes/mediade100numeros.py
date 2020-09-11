@@ -6,8 +6,6 @@ def media_dos_cem(n):
     media = soma/n
         
     return media
-            
-
     
 
 def main():
