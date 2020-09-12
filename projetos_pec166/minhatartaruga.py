@@ -1,63 +1,17 @@
-from turtle import * 
+from turtle import *
 
-shape("turtle")
-speed(11)
-pensize(6)
-color("#B22222")
-
-#letraA
-left(60)
-forward(150)
-
-right(120)
-forward(150)
-
-backward(60)
-right(120)
-forward(90)
-
-penup()
-backward(90)
-left(120)
-forward(60)
-
-left(60)
-forward(20)
-
-color("#008000")
-pendown()
-
-#letraN
-left(90)
-forward(150)
-right(150)
-forward(160)
-
-left(150)
-forward(150)
-
-#pausacaneta
-penup()
-backward(20)
-right(90)
-forward(100)
-pendown()
-
-color("blue")
-#letraA2
-right(120)
-forward(150)
-
-backward(150)
-left(60)
-forward(150)
-backward(60)
-right(120)
-forward(90)
-
-
-
-
+# importa a biblioteca
+color('blue', 'green')  # escolhe a cor do traco e do preenchimento
+begin_fill()  # inicia o desenho na posicao (0,0)
+forward(200)  # move 200 passos a frente
+left(90)  # vira a esquerda 90 graus
+forward(200)  # move 200 passos a frente
+left(90)  # vira a esquerda 90 graus
+forward(200)  # move 200 passos a frente
+left(90)  # vira a esquerda 90 graus
+forward(200)  # move 200 passos a frente
+end_fill()  # preenche o desenho
+done()  # encerra o processo
 
 
 done()
