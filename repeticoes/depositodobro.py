@@ -1,5 +1,4 @@
 def montante(c, tx):
-
     m = c*(1+(tx/100))
     dobro_m = m*2
     tempo = 0
