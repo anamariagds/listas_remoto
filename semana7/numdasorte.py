@@ -5,12 +5,14 @@ def sua_sorte(num):
         n_sorte +=(num%10)
         num = num//10
     
-    print(n_sorte)
+    return n_sorte
 
 def main():
     num = int(input("Digite a data do seu nascimento no formato ddmmaaaa: "))
 
-    sua_sorte(num)
+    s =sua_sorte(num)
+    print(f'Seu número da sorte é {s}')
+
 
 
 if __name__=='__main__':
