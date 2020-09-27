@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 def maior_populacao():
     t = 0
     pop_A = float(input("População A: "))
@@ -18,11 +18,12 @@ def maior_populacao():
         menor *=1.03
         
         if menor > maior:
-            print(t)
+            return t
             break
         
 def main():
-    maior_populacao()
+    ano =maior_populacao()
+    print(f'Precisará de {ano} anos para a Cidade A ultrapassar a população de B.')
     
 
 if __name__=='__main__':
