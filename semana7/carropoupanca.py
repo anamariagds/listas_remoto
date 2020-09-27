@@ -1,19 +1,19 @@
-# -*- coding: utf-8 -*-
-def posso_pagar():
+def posso_pagar(pc):
     pp = 10000
     t = 0
-    pc = float(input("Preço do carro: "))
+    
     while pp<=pc:
         pp *=1.007
         pc *=1.004
         t +=1
         if pp >= pc:
-            print(t)
+            return t
             break
 
-
 def main():
-    qnd = posso_pagar()
+    pc = float(input("Preço do carro: "))
+    qnd = posso_pagar(pc)
+    print(f'Você conseguirá pagar esse carro em {qnd} meses')
 
 
 if __name__=='__main__':
