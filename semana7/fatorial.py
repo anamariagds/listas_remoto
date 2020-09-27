@@ -1,6 +1,5 @@
-def fatorial():
+def fatorial(N):
     i = 0
-    N = int(input("Digite um número: "))
     fat = N
 
     while True:
@@ -12,10 +11,12 @@ def fatorial():
             fat *= i
             if i == (N-1):
                 break
-    print(fat)
+    return fat
 
 def main():
-    fatorial()
+    N = int(input("Digite um número: "))
+    f = fatorial(N)
+    print(f'O Fatorial de {N} é {f}.')
 
 if __name__=='__main__':
     main()
