@@ -1,7 +1,8 @@
 def ler_notas(n):
     notas = []
     for i in range(n):
-        notas.append(float(input(f'Nota {i+1} de {n}'))
+        nt = float(input(f'Nota {i+1} de {n}'))
+        notas.append(nt)
     return notas
 
 def media(notas):
