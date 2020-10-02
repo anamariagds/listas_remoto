@@ -1,3 +1,4 @@
+#programa que escolhe nome para pet feme ou macho
 from random import *
 
 executa = True
