@@ -1,26 +1,30 @@
 def com_reais(n):
     reais = []
     for i in range(n):
-        x = float(input("Digite um número real "))
-        reais.append(x)
+        reais.append(float(input("Número: ")))
+      
+    reais.reverse()    
     print(reais)
 
 def notas_media(n):
     notas = []
     media = 0
-    if n == 0:
-        print(f'SEM NOTAS')
+    for i in range(n):
+        notas.append(float(input(f'Nota {i+1}: ')))
+        media = sum(notas)/len(notas)
+    print(notas)
+    if n ==0:
+        print("SEM NOTAS")
     else:
-        for i in range(n):
-            notas.append(float(input("Notas: ")))
-        return sum(notas)/len(notas)
-        print(notas)
+        print(f'{media:.1f}')
+
+
 def letras(n):
     letras = []
     consoante= []
     vog = 0
     for i in range(n):
-        let = input()
+        let = input("Digite uma letra: ")[0]
         letras.append(let)
     for v in letras:
         if v.upper() in 'AEIOU':
@@ -31,10 +35,10 @@ def letras(n):
     print(consoante)
                     
 def main():
-    n = int(input("Tamanho da lista: "))
+    n = int(input("Tamanho da Lista: "))
     com_reais(n)
     notas_media(n)
     letras(n)
 
-if __name__ == '__main__':
+if __name__=='__main__':
     main()
