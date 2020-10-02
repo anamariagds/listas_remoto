@@ -1,3 +1,5 @@
+#Leia duas listas A e B contendo 25 elementos inteiros cada, gerar e imprimir uma lista C de 50
+#elementos, cujos elementos sejam a intercalação dos elementos de A e B
 def listaAB(n):
     A =[]
     B =[]

@@ -1,3 +1,6 @@
+#Leia 20 números inteiros e armazene-os numa lista. Separe os números pares na lista PAR e os
+#números ímpares na lista IMPAR. Imprima as três listas.
+# # # # # # ############################## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 def par_impar(n):
     numero = []
     par = []

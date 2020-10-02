@@ -1,3 +1,5 @@
+#preencha com valores reais lidos pelo teclado e imprima na ordem inversa. Considere até 4
+#(quatro) casas decimais.
 def com_reais(n):
     reais = []
     for i in range(n):
@@ -5,7 +7,8 @@ def com_reais(n):
       
     reais.reverse()    
     print(reais)
-
+#preencha com n notas lidas pelo teclado e imprima as notas e a média na tela. Considere 1
+#uma) casa decimal. Se n = 0, imprima “SEM NOTAS”.
 def notas_media(n):
     notas = []
     media = 0
@@ -18,7 +21,8 @@ def notas_media(n):
     else:
         print(f'{media:.1f}')
 
-
+#preencha com n letras lidas pelo teclado e imprima quantas vogais foram lidas. Imprima as
+#consoantes. Dica: certifique-se de ler apenas um caractere com input()[0]
 def letras(n):
     letras = []
     consoante= []
