@@ -15,13 +15,13 @@ def de1a_n(n):
 def usuariopreenche(n):
     lista = []
     for i in range(n):
-        lista.append(int(input(f'Preencha a lista com {n} elementos: ')))
+        lista.append(int(input(f'Informe o {i+1} inteiro: ')))
     print(lista)
 #preenche e inverte
 def preencheinverso(n):
     lista = []
     for i in range(n):
-        x = int(input("Valor da lista: "))
+        x = int(input(f'Número {i+1}: '))
         lista.insert(i,x)
     lista.reverse()
     print(lista)
