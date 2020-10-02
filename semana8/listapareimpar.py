@@ -9,9 +9,9 @@ def par_impar(n):
             par.append(v)
         else:
             impar.append(v)
-    print(numero)
-    print(par)
-    print(impar)
+    print(f'A lista de números informados: {numero}')
+    print(f'Dos quais esses são par: {par}')
+    print(f'E esses são ímpar:{impar}')
 
 
 def main():
