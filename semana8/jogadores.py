@@ -12,7 +12,7 @@ def mais_alto(n):
     print(nome[m_alto])
     print(altura[m_alto])
 
-z
+
     media = sum(alturas)/len(alturas)
 
 
