@@ -6,8 +6,11 @@ def par_impar(n):
     par = []
     impar = []
     for i in range(n):
+        #add valores na lista numero
         numero.append(int(input("Digite um número: ")))
+    #verifica se valor é par ou ímpar
     for v in numero:
+        #se par add na lista de numero par se não na lista de impares
         if v %2 ==0:
             par.append(v)
         else:
