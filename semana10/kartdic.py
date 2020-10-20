@@ -1,7 +1,7 @@
 from operator import itemgetter
 def tempos():
     tempo=[]
-    for i in range(3):
+    for i in range(10):
         tempo.append(float(input(f'Tempo volta {i+1} de {3}: ')))
     return tempo
 
@@ -21,7 +21,7 @@ def tempo_total(corrida):
     
 def main():
     corrida= dict()
-    for c in range(2):
+    for c in range(6):
         nome = input("Jogador: ")
         volta = tempos()
         corrida[nome]= volta
