@@ -10,7 +10,7 @@ def cadastro_people():
 
         maiores[cpf]= nome, idade
     
-    #move os menores de 28 para outro dicionario
+    #move os menores de 18 para outro dicionario
     for i in maiores:
         nome, idade =maiores[i]
         if idade< 18:

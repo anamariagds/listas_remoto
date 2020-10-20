@@ -11,4 +11,4 @@ for linn in range(linhas):
         
         linha.append(x)
           
-    matrix.append(linha
+    matrix.append(linha)

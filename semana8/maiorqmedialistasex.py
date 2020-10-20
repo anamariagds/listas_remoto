@@ -11,7 +11,8 @@ def media(notas):
 def maiores_que(media, notas):
     maiores = []
     for nota in notas:
-        if nota > media: maiores.append(nota)
+        if nota > media:
+            maiores.append(nota)
     return maiores
 
 def main():
