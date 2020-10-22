@@ -1,7 +1,8 @@
 def mostra(planetas):
-    op= input('Informe o Planeta: ')
-
-
+    op= input('Informe o Planeta: ').lower()
+    if op in planetas.keys():
+        plnt = planetas[op]
+        print(f'{op} está a {plnt} Km do Sol  ')
 
 def main():
     #distancia relativa ao sol em km
@@ -15,6 +16,7 @@ def main():
         'urano': '2.870.990.000',
         'netuno': '4.504.300.000'
     }
+    mostra(planet)
 
 
 if __name__=='__main__':
